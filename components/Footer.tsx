@@ -11,7 +11,7 @@ type FooterColumnProps = {
 function FooterColumn({ title, children }: FooterColumnProps) {
   return (
     <div className="flex flex-col gap-5">
-      <h3 className="bold-18 whitespace-nowrap">{title}</h3>
+      <h2 className="bold-18 whitespace-nowrap">{title}</h2>
       {children}
     </div>
   );
