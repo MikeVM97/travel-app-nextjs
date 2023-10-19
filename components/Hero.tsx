@@ -1,13 +1,10 @@
 import Image from "next/image"
 import Button from "./Button"
 
-
 function Hero() {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row border-2">
-      <div className="hero-map">
-
-      </div>
+    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+      <div className="hero-map"></div>
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image src="/camp.svg" alt="camp" width={50} height={50} className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]" />
         <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
@@ -30,7 +27,7 @@ function Hero() {
         
       </div>
       <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+        <div className="relative top-4 z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>

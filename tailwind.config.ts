@@ -36,8 +36,14 @@ module.exports = {
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
       },
+      backgroundPosition: {
+        'custom': '63% -275px'
+      },
+      backgroundSize: {
+        '290%': '290%'
+      },
       screens: {
-        xs: '400px',
+        xs: '250px',
         '3xl': '1680px',
         '4xl': '2200px',
       },
